@@ -1,4 +1,8 @@
-# wishbone-site-ts
+# Wishbone Website
+
+The working mockup of the Wishbone Sports Analytics website. Built with Vue.js and Typescipt.
+
+# Commands
 
 ## Project setup
 ```
@@ -19,6 +23,3 @@ npm run build
 ```
 npm run lint
 ```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
