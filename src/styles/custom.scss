@@ -1,0 +1,9 @@
+// import the custom vars
+@import 'variables';
+
+// import for Titillium Web font
+@import url('https://fonts.googleapis.com/css family=Titillium+Web:300,400,400i,600,600i,700');
+
+// bootstrap stuff - goes last
+@import '~bootstrap/scss/bootstrap';
+@import '~bootstratp-vue/src/index.scss';
