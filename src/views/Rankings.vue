@@ -1,5 +1,6 @@
 <template>
   <div>
+    <NavBar />
     <h1>Rankings</h1>
     <div v-for="poll in thepolls" :key="poll.name">
       <RankingsTable :poll="poll"/>
@@ -13,6 +14,7 @@ import { Component } from 'vue-property-decorator'
 
 @Component({
   components: {
+    NavBar: () => import(/* webpackChunkName: "nav-bar" */ '@/components/NavBar.vue'),
     RankingsTable: () => import(/* webpackChunkName: "rankings-table" */ '@/components/RankingsTable.vue')
   }
 })
