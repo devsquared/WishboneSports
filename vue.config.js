@@ -1,6 +1,5 @@
 const path = require('path')
 const webpack = require('webpack')
-const SriPlugin = require('webpack-subresource-integrity')
 const TerserPlugin = require('terser-webpack-plugin')
 
 module.exports = {
