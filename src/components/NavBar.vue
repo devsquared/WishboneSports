@@ -1,6 +1,9 @@
 <template>
   <b-navbar toggleable="lg" type="dark" variant="dark">
-    <b-navbar-brand :to="{ name: 'home' }">Wishbone</b-navbar-brand>
+    <b-navbar-brand :to="{ name: 'home' }">
+      <!-- replace the below with an S3 link to an image -->
+      <img src="https://www.dropbox.com/s/56dahi07g0hyf36/Wishbone_Embedded_Logo.png?dl=0" alt="Wishbone">
+    </b-navbar-brand>
 
     <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
 
